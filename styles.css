@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: #F9E0BB;
+    color: white;
+    font-family: 'averta cy w10';
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #DAB88B;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: #C38154;
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 140px 0;
+    align-items: center;
+}
+
+.leftSection {
+
+
+    font-size: 3rem;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.rightSection img {
+
+    width: 700px;
+    margin: 50px 0;
+
+}
+
+.purple {
+
+    color: #898121;
+}
+
+#element {
+    color: #898121;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    color: #884A39;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.7rem;
+}
+
+.text-gray {
+
+    color: #A9907E;
+}
+
+.secondSection .box {
+
+    background-color: #7C9070;
+    width: 80vw;
+    height: 2px;
+    margin: 150px 0;
+    display: flex;
+
+}
+
+.secondSection .vertical {
+
+    height: 93px;
+    width: 2px;
+    background-color: #7C9070;
+    margin: 0 105px;
+
+
+}
+
+.image-top {
+
+    width: 45px;
+    position: relative;
+    top: -50px;
+    left: -20px;
+
+}
+
+.image-bottom {
+
+    width: 45px;
+    position: relative;
+    top: -50px;
+    left: -30px;
+}
+
+.vertical-title {
+
+    position: relative;
+    top: 70px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+
+    position: relative;
+    top: 86px;
+    color: #A9907E;
+    font-size: 9px;
+    width: 150px;
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 22px;
+    justify-content: space-evenly;
+}
+
+footer {
+
+    background-color: #6B4F4F;
+    height: 65px;
+}
+
+
+.leftSection .btn {
+
+    background-color: #E4D0D0;
+    color: white;
+    border: 2px solid #D5B4B4;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.scroll-effect {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.scroll-effect.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
